@@ -1,0 +1,50 @@
+
+			<mj-section background-color="#a84d98" padding="0 25px">
+				<mj-column>
+
+					<mj-spacer height="20px" />
+
+					<!--
+					<mj-table>
+						<tr>
+							<td valign="top" align="left">
+								<img class="d-block mobile-img-center img-fluid" editable src="images/symbol.png" width="86" label="Foodisar symbol" />
+							</td>
+						</tr>
+					</mj-table>
+					-->
+
+					<mj-image width="86" align="left" css-class="mobile-img-center" src="images/symbol.png" />
+
+					<mj-spacer height="20px" />
+
+					<mj-table>
+						<tr>
+							<td class="mobile-text-center" valign="top" align="left">
+								<h1 class="heading-44">
+									<multiline label="Headline">Här finns plats för<br /><span class="heading-76">RUBRIKEN!</span></multiline>
+								</h1>
+							</td>
+						</tr>
+					</mj-table>
+
+				</mj-column>
+
+				<mj-column>
+
+					<mj-spacer height="10px" />
+
+					<!--
+					<mj-table>
+						<tr>
+							<td valign="bottom" align="right">
+								<img class="d-block mobile-img-center img-fluid" editable src="images/child.png" width="260" label="Child" />
+							</td>
+						</tr>
+					</mj-table>
+					-->
+
+					<mj-image width="260" src="images/child.png" />
+
+				</mj-column>
+			</mj-section>

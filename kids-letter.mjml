@@ -1,0 +1,495 @@
+<mjml>
+	<mj-head>
+		<mj-attributes>
+			<mj-all padding="0" margin="0" font-family="comic_ellamedium, 'Comic Sans MS', 'Comic Sans', sans-serif" />
+		</mj-attributes>
+		<mj-style>
+			@font-face {
+			font-family: "comic_ellamedium";
+			font-style: normal;
+			font-weight: 400;
+			src: url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.eot?#iefix") format("embedded-opentype"),
+			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.woff2") format("woff2"),
+			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.woff") format("woff"),
+			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.ttf") format("truetype"),
+			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.svg#comic_ellamedium") format("svg");
+			mso-font-alt:Arial;
+			}
+
+			@font-face {
+			font-family: "ellas_kitchen_1regular";
+			font-style: normal;
+			font-weight: 400;
+			src: url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.eot?#iefix") format("embedded-opentype"),
+			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.woff2") format("woff2"),
+			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.woff") format("woff"),
+			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.ttf") format("truetype"),
+			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.svg#ellas_kitchen_1regular") format("svg");
+			mso-font-alt:Arial;
+			}
+
+			td {
+				padding: 0;
+			}
+
+			p {
+				margin: 0 0 1em;
+			}
+
+			h1, h2, h3 {
+				font-weight: normal;
+				margin: 0;
+			}
+
+			@media only screen and (max-width: 479px) {
+				.mobile-text-center {
+					text-align: center;
+				}
+				.mobile-img-center {
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+		</mj-style>
+		<mj-style inline="inline">
+			.text-center {
+				text-align: center;
+			}
+			.text-white {
+				color: #ffffff !important;
+			}
+			.d-block {
+				display: block;
+			}
+			.img-fluid {
+				max-width: 100% !important;
+				height: auto !important;
+			}
+			.heading-purple {
+				color: #a84d98;
+				font-size: 18px;
+				line-height: 28px;
+			}
+			.text-14 {
+				color: #ffffff;
+				font-size: 14px;
+				line-height: 21px;
+			}
+			.text-14-blue {
+				color: #253068;
+				font-size: 14px;
+				line-height: 21px;
+			}
+			.text-16 {
+				color: #53160d;
+				font-size: 16px;
+				line-height: 24px;
+			}
+			.heading-24 {
+				color: #fbad1d;
+				font-family: 'ellas_kitchen_1regular', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				font-size: 24px;
+				line-height: 24px;
+				letter-spacing: -0.05em;
+				font-weight: normal;
+			}
+			.heading-32 {
+				color: #ffffff;
+				font-family: 'ellas_kitchen_1regular', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				font-size: 32px;
+				line-height: 36px;
+				letter-spacing: -0.05em;
+				font-weight: normal;
+			}
+			.heading-36 {
+				color: #ea1b75;
+				font-family: 'ellas_kitchen_1regular', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				font-size: 36px;
+				line-height: 40px;
+				letter-spacing: -0.05em;
+				font-weight: normal;
+			}
+			.heading-44 {
+				color: #feb81a;
+				font-family: 'ellas_kitchen_1regular', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				font-size: 40px;
+				line-height: 40px;
+				letter-spacing: -0.05em;
+				font-weight: normal;
+			}
+			.heading-76 {
+				color: #feb81a;
+				font-family: 'ellas_kitchen_1regular', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				font-size: 70px;
+				line-height: 74px;
+				letter-spacing: -0.1em;
+				font-weight: normal;
+			}
+			.heading-76-magenta {
+				color: #ea1b75;
+				font-family: 'ellas_kitchen_1regular', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				font-size: 70px;
+				line-height: 40px;
+				letter-spacing: -0.1em;
+				font-weight: normal;
+			}
+			.webversion-link {
+				color: #939598 !important;
+				font-family: 'comic_ellamedium', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				font-size: 14px;
+				line-height: 22px;
+				text-decoration: underline !important;
+			}
+			.unsubscribe-link {
+				color: #ffffff !important;
+				font-family: 'comic_ellamedium', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				text-decoration: underline !important;
+			}
+		</mj-style>
+	</mj-head>
+	<mj-body>
+		<mj-container>
+
+			<mj-section background-color="#ffffff" padding="15px 0">
+				<mj-column>
+					<mj-table>
+						<tr>
+							<td class="heading-purple" valign="top" align="center">
+								<singleline label="Read online text">Kan du inte se bilderna?</singleline>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" align="center">
+								<singleline label="Read online link"><webversion><span class="webversion-link">Klicka här!</span></webversion></singleline>
+							</td>
+						</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#a84d98">
+				<mj-column>
+
+					<mj-table>
+						<tr>
+							<td valign="bottom" align="center">
+								<table width="100%">
+									<tr>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/placeholder-top-image.jpg" width="600" label="Column image" />
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</mj-table>
+
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#e2261d" padding="25px">
+				<mj-column>
+
+					<mj-table>
+						<tr>
+							<td valign="top" align="center">
+								<h2 class="heading-32">
+									<multiline label="Headline 2">Här en rubrik till tidslinjen</multiline>
+								</h2>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-spacer height="10px" />
+
+					<mj-table>
+						<tr>
+							<td valign="bottom" align="center">
+								<table width="100%">
+									<tr>
+										<td valign="top" align="center">
+											<img class="d-block mobile-img-center img-fluid" editable src="images/timeline.png" width="465" label="Timeline" />
+										</td>
+									</tr>
+							</td>
+						</tr>
+					</mj-table>
+
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#feb81a" padding="50px 25px">
+				<mj-column>
+
+					<mj-table>
+						<tr>
+							<td class="mobile-text-center" valign="top" align="left">
+								<h1 class="heading-36">
+									<multiline label="Title"><span class="text-white">“</span> Ett citat eller liknande på två rader ipsumlorem vite ipsum dolore <span class="heading-76-magenta">vonore</span> <span class="text-white">“</span></multiline>
+								</h1>
+							</td>
+						</tr>
+					</mj-table>
+
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#feb81a" padding="0 50px">
+				<mj-column>
+
+					<mj-table>
+						<tr>
+							<td valign="top" align="left">
+								<p class="text-14">
+									[fullname,fallback=Förnamn Efternamn]<br />
+									[Title,fallback=]<br />
+									[Company,fallback=]
+								</p>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-table>
+						<tr>
+							<td valign="top" align="left">
+								<div class="text-16">
+									<multiline label="Content">
+										<p>Brödtext Uet aut labo. Us quuntium ipiciatus dolorer sperro que accatur? Qui ut at omnis eaquo volorpostiae alicium sedis modit ellaboriatur aut que vendam fugiat optur quam, corenessitem dolo in plia que lorem dolores.
+										Agnam quam, corenessitem dolo in plia que sant, et landios aut aut dolup tat ut doluptat queostiae alicium sedis modit ellaboriatu.</p>
+										<p>Dolorer  quam, corenessitem dolo in plia que sant, et landios aut aut dol up tat ut doluptat que. a que sant, et landios aut aut dolup.</p>
+									</multiline>
+								</div>
+							</td>
+						</tr>
+					</mj-table>
+
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#feb81a">
+				<mj-column>
+
+					<mj-spacer height="50px" />
+
+					<mj-image width="600" src="images/grass.png" />
+
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#a84d98" padding="25px">
+				<mj-column>
+
+					<mj-table padding="0 15px">
+						<tr>
+							<td valign="bottom" align="center">
+								<table width="100%">
+									<tr>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/placeholder-image.png" width="248" label="Column image" />
+										</td>
+									</tr>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-spacer height="20px" />
+
+					<mj-table padding="0 25px">
+						<tr>
+							<td valign="top" align="left">
+								<h3 class="heading-24">
+									<singleline label="Column headline">Plats för rubrik på två rader</singleline>
+								</h3>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-spacer height="5px" />
+
+					<mj-table padding="0 25px">
+						<tr>
+							<td valign="top" align="left">
+								<div class="text-16 text-white">
+									<multiline label="Column content">
+										<p>Uet aut labo. Us quuntium ipiciatus dolorer sperro que accatur? Qui ut at omnis eaquo volorpostiae alicium sedis modit ellaboriatur aut que vendam fugiat optur quam, </p>
+									</multiline>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" align="left">
+								<table width="100%">
+									<tr>
+										<td valign="top" align="left">
+											<img class="d-block img-fluid" editable src="images/icon-more.png" width="181" label="Read more image" />
+										</td>
+									</tr>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-spacer height="35px" />
+
+				</mj-column>
+
+				<mj-column>
+
+					<mj-table padding="0 15px">
+						<tr>
+							<td valign="bottom" align="center">
+								<table width="100%">
+									<tr>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/placeholder-image.png" width="248" label="Column image" />
+										</td>
+									</tr>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-spacer height="20px" />
+
+					<mj-table padding="0 25px">
+						<tr>
+							<td valign="top" align="left">
+								<h3 class="heading-24">
+									<singleline label="Column headline">Plats för rubrik på två rader</singleline>
+								</h3>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-spacer height="5px" />
+
+					<mj-table padding="0 25px">
+						<tr>
+							<td valign="top" align="left">
+								<div class="text-16 text-white">
+									<multiline label="Column content">
+										<p>Uet aut labo. Us quuntium ipiciatus dolorer sperro que accatur? Qui ut at omnis eaquo volorpostiae alicium sedis modit ellaboriatur aut que vendam fugiat optur quam, </p>
+									</multiline>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" align="left">
+								<table width="100%">
+									<tr>
+										<td valign="top" align="left">
+											<img class="d-block img-fluid" editable src="images/icon-more.png" width="181" label="Read more image" />
+										</td>
+									</tr>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-spacer height="35px" />
+
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#00b450">
+
+				<mj-column width="200" background-color="#00b450">
+					<mj-table>
+						<tr>
+							<td valign="top" align="center">
+								<table width="100%">
+									<tr>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/placeholder-block-logo.png" width="200" height="225" label="Logotype" />
+										</td>
+									</tr>
+							</td>
+						</tr>
+					</mj-table>
+				</mj-column>
+
+				<mj-column width="400" background-color="#64cde4">
+					<mj-table>
+						<tr>
+							<td valign="top" align="center">
+								<table width="100%">
+									<tr>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/placeholder-block-blue.png" width="400" height="225" label="Ad area" />
+										</td>
+									</tr>
+							</td>
+						</tr>
+					</mj-table>
+				</mj-column>
+
+			</mj-section>
+
+			<mj-section background-color="#d5a1ed">
+
+				<mj-column>
+					<mj-table>
+						<tr>
+							<td valign="top" align="center">
+								<table width="100%">
+									<tr>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/placeholder-block-purple.png" width="600" label="Ad area" />
+										</td>
+									</tr>
+							</td>
+						</tr>
+					</mj-table>
+				</mj-column>
+
+			</mj-section>
+
+			<mj-section background-color="#fbad1d" padding="50px 25px">
+				<mj-column>
+
+					<mj-table>
+						<tr>
+							<td valign="top" align="center">
+								<table width="280" style="width:280px">
+									<tr>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/icon-facebook.png" width="66" label="Facebook" />
+										</td>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/icon-instagram.png" width="66" label="Facebook" />
+										</td>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/icon-strawberry.png" width="66" label="Facebook" />
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-spacer height="35px" />
+
+					<mj-table>
+						<tr>
+							<td valign="top" align="left" class="text-14-blue text-center">
+								<multiline label="Footer text">
+									<p>Uet aut labo. Us quuntium ipiciatus dolorer sperro que accatur? Qui ut at omnis eaquo volorpostiae alicium sedis modit ellaboriatur aut que vendam fugiat optur quam, corenessitem dolo in plia que lorem dolores.</p>
+								</multiline>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-table>
+						<tr>
+							<td valign="top" align="center" class="text-14 text-center">
+								<singleline label="Unsubscribe text">Jag vill avregistrera mig</singleline>
+								<unsubscribe>
+									<span class="unsubscribe-link">Klicka här!</span>
+								</unsubscribe>
+							</td>
+						</tr>
+					</mj-table>
+
+				</mj-column>
+			</mj-section>
+
+		</mj-container>
+	</mj-body>
+</mjml>

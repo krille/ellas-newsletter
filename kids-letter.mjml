@@ -13,7 +13,7 @@
 			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.woff") format("woff"),
 			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.ttf") format("truetype"),
 			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.svg#comic_ellamedium") format("svg");
-			mso-font-alt:Arial;
+			mso-font-alt:'Comic Sans MS';
 			}
 
 			@font-face {
@@ -25,7 +25,7 @@
 			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.woff") format("woff"),
 			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.ttf") format("truetype"),
 			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.svg#ellas_kitchen_1regular") format("svg");
-			mso-font-alt:Arial;
+			mso-font-alt:'Comic Sans MS';
 			}
 
 			td {
@@ -39,6 +39,25 @@
 			h1, h2, h3 {
 				font-weight: normal;
 				margin: 0;
+			}
+
+			img {
+				border-radius: 0 !important;
+			}
+
+			@media only screen and (max-width: 750px) {
+				h1,
+				h2,
+				h3,
+				h4,
+				p,
+				span,
+				div *,
+				table *,
+				tr *,
+				td * {
+					background: transparent !important;
+				}
 			}
 
 			@media only screen and (max-width: 479px) {
@@ -277,7 +296,7 @@
 			</mj-section>
 
 			<mj-section background-color="#a84d98" padding="25px">
-				<mj-column>
+				<mj-column background-color="#a84d98">
 
 					<mj-table padding="0 15px">
 						<tr>
@@ -332,7 +351,7 @@
 
 				</mj-column>
 
-				<mj-column>
+				<mj-column background-color="#a84d98">
 
 					<mj-table padding="0 15px">
 						<tr>

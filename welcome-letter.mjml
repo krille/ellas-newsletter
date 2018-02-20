@@ -1,0 +1,242 @@
+<mjml>
+	<mj-head>
+		<mj-attributes>
+			<mj-all padding="0" margin="0" font-family="comic_ellamedium, 'Comic Sans MS', 'Comic Sans', sans-serif" />
+		</mj-attributes>
+		<mj-style>
+			@font-face {
+			font-family: "comic_ellamedium";
+			font-style: normal;
+			font-weight: 400;
+			src: url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.eot?#iefix") format("embedded-opentype"),
+			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.woff2") format("woff2"),
+			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.woff") format("woff"),
+			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.ttf") format("truetype"),
+			url("http://norrlandsgruppen.se/ellas-fonts/comicella-medium-webfont.svg#comic_ellamedium") format("svg");
+			mso-font-alt:'Comic Sans MS';
+			}
+
+			@font-face {
+			font-family: "ellas_kitchen_1regular";
+			font-style: normal;
+			font-weight: 400;
+			src: url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.eot?#iefix") format("embedded-opentype"),
+			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.woff2") format("woff2"),
+			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.woff") format("woff"),
+			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.ttf") format("truetype"),
+			url("http://norrlandsgruppen.se/ellas-fonts/ellaskitchen1.svg#ellas_kitchen_1regular") format("svg");
+			mso-font-alt:'Comic Sans MS';
+			}
+
+			td {
+				padding: 0;
+			}
+
+			p {
+				margin: 0 0 1em;
+			}
+
+			h1, h2, h3 {
+				font-weight: normal;
+				margin: 0;
+			}
+
+			img {
+				border-radius: 0 !important;
+			}
+
+			@media only screen and (max-width: 750px) {
+				h1,
+				h2,
+				h3,
+				h4,
+				p,
+				span,
+				div *,
+				table *,
+				tr *,
+				td * {
+					background: transparent !important;
+				}
+			}
+		</mj-style>
+		<mj-style inline="inline">
+			.text-center {
+				text-align: center;
+			}
+			.d-block {
+				display: block;
+			}
+			.img-fluid {
+				max-width: 100% !important;
+				height: auto !important;
+			}
+			.heading-blue {
+				color: #2b3c73;
+				font-size: 18px;
+				line-height: 28px;
+				font-family: 'comic_ellamedium', 'Comic Sans MS', 'Comic Sans', sans-serif;
+			}
+			.text-14 {
+				color: #ffffff;
+				font-size: 14px;
+				line-height: 21px;
+				font-family: 'comic_ellamedium', 'Comic Sans MS', 'Comic Sans', sans-serif;
+			}
+			.text-14-blue {
+				color: #233266;
+				font-size: 14px;
+				line-height: 21px;
+				font-family: 'comic_ellamedium', 'Comic Sans MS', 'Comic Sans', sans-serif;
+			}
+			.text-16 {
+				color: #521912;
+				font-size: 16px;
+				line-height: 24px;
+				font-family: 'comic_ellamedium', 'Comic Sans MS', 'Comic Sans', sans-serif;
+			}
+			.heading-44 {
+				color: #ffffff;
+				font-family: 'ellas_kitchen_1regular', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				font-size: 36px;
+				line-height: 40px;
+				letter-spacing: -0.05em;
+				font-weight: normal;
+			}
+			.webversion-link {
+				color: #939598 !important;
+				font-family: 'comic_ellamedium', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				font-size: 14px;
+				line-height: 22px;
+				text-decoration: underline !important;
+			}
+			.unsubscribe-link {
+				color: #ffffff !important;
+				font-family: 'comic_ellamedium', 'Comic Sans MS', 'Comic Sans', sans-serif;
+				text-decoration: underline !important;
+			}
+		</mj-style>
+	</mj-head>
+	<mj-body>
+		<mj-container>
+
+			<mj-section background-color="#ffffff" padding="15px 0">
+				<mj-column>
+					<mj-table>
+						<tr>
+							<td class="heading-blue" valign="top" align="center">
+								<singleline label="Read online text">Kan du inte se bilderna?</singleline>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" align="center">
+								<singleline label="Read online link"><webversion><span class="webversion-link">Klicka här!</span></webversion></singleline>
+							</td>
+						</tr>
+					</mj-table>
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#6dcff6" padding="20px 0 0 0">
+				<mj-column>
+
+					<mj-image width="600" src="images/top-logos.png" />
+
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#6dcff6" padding="0 50px 20px">
+				<mj-column>
+
+					<mj-spacer height="50px" />
+
+					<mj-table>
+						<tr>
+							<td class="text-center" valign="top" align="left">
+								<h1 class="heading-44">
+									<multiline label="Title">Hej och välkommen till oss!</multiline>
+								</h1>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-spacer height="25px" />
+
+					<mj-table>
+						<tr>
+							<td valign="top" align="left">
+								<div class="text-16">
+									<multiline label="Content">
+										<p>Du är nu en del av Ella´s Kitchen-familjen, vår klubb Ella´s Kitchen &lt;3 foodisar. Vi finns här för att inspirera och hjälpa till att skapa nya små matälskare, forma nästa generations foodisar. För det är så vi ser dem – som små människor vars smaklökar och matupplevelser ska tas på lika stort allvar som de vuxnas.</p>
+										<p>Vi vet att det är nu, i början av din lillas smakresa, som grunden läggs. Därför kommer vi att dela med oss av matnyttig fakta, mumsiga recept, erbjudanden och tips för glädjefyllda matstunder. Bland mycket annat.</p>
+										<p>När du läser det här är ditt startpaket på väg. Vi hoppas att du kommer att få nytta av både det och våra kommande tips. Och du, vi ääälskar att följa alla våra små foodisar och deras vardag. Så dela gärna med dig under våra hashtags #ellaskitchensverige och #ellasfoodisar på Facebook och Instagram.</p>
+										<p>Vi hörs snart igen! <br>Ella´s Kitchen Sverige</p>
+									</multiline>
+								</div>
+							</td>
+						</tr>
+					</mj-table>
+
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#6dcff6">
+				<mj-column>
+
+					<mj-image width="600" src="images/grass-mole.png" />
+
+				</mj-column>
+			</mj-section>
+
+			<mj-section background-color="#a84c97" padding="50px">
+				<mj-column>
+
+					<mj-table>
+						<tr>
+							<td valign="top" align="center">
+								<table width="280" style="width:280px">
+									<tr>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/icon-facebook.png" width="66" label="Facebook" />
+										</td>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/icon-instagram.png" width="66" label="Instagram" />
+										</td>
+										<td valign="top" align="center">
+											<img class="d-block img-fluid" editable src="images/icon-strawberry.png" width="66" label="Website" />
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-spacer height="35px" />
+
+					<mj-table>
+						<tr>
+							<td valign="top" align="left" class="text-14-blue text-center">
+								<multiline label="Footer text">
+									<p>Uet aut labo. Us quuntium ipiciatus dolorer sperro que accatur? Qui ut at omnis eaquo volorpostiae alicium sedis modit ellaboriatur aut que vendam fugiat optur quam, corenessitem dolo in plia que lorem dolores.</p>
+								</multiline>
+							</td>
+						</tr>
+					</mj-table>
+
+					<mj-table>
+						<tr>
+							<td valign="top" align="center" class="text-14 text-center">
+								<singleline label="Unsubscribe text">Jag vill avregistrera mig</singleline>
+								<unsubscribe>
+									<span class="unsubscribe-link">Klicka här!</span>
+								</unsubscribe>
+							</td>
+						</tr>
+					</mj-table>
+
+				</mj-column>
+			</mj-section>
+
+		</mj-container>
+	</mj-body>
+</mjml>
